@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DC0CB1C1C2DE09B00F34D1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0CB1B1C2DE09B00F34D1D /* AppDelegate.swift */; };
+		4DC0CB211C2DE09B00F34D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC0CB1F1C2DE09B00F34D1D /* Main.storyboard */; };
+		4DC0CB231C2DE09B00F34D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC0CB221C2DE09B00F34D1D /* Assets.xcassets */; };
+		4DC0CB261C2DE09B00F34D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC0CB241C2DE09B00F34D1D /* LaunchScreen.storyboard */; };
+		4DC0CB311C2DE09B00F34D1D /* WaterlooNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0CB301C2DE09B00F34D1D /* WaterlooNewsTests.swift */; };
+		4DC0CB3C1C2DE09B00F34D1D /* WaterlooNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0CB3B1C2DE09B00F34D1D /* WaterlooNewsUITests.swift */; };
+		4DC0CB4A1C2DE1A800F34D1D /* WaterlooNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0CB491C2DE1A800F34D1D /* WaterlooNewsViewController.swift */; };
+		4DC0CB4C1C2DE27900F34D1D /* NewsPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0CB4B1C2DE27900F34D1D /* NewsPost.swift */; };
+		4DC0CB4E1C2DE28300F34D1D /* NewsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0CB4D1C2DE28300F34D1D /* NewsRequest.swift */; };
+		4DC0CB501C2DE2D100F34D1D /* NewsPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0CB4F1C2DE2D100F34D1D /* NewsPostTableViewCell.swift */; };
+		4DC2052A1C2E42EA0072947C /* StyleConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC205291C2E42EA0072947C /* StyleConstants.swift */; };
+		4DC205301C2F81500072947C /* NewsFeedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC2052F1C2F81500072947C /* NewsFeedLayout.swift */; };
+		4DC205341C2F86BC0072947C /* NewsFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC205331C2F86BC0072947C /* NewsFeedCollectionViewCell.swift */; };
+		4DC205361C2F8B060072947C /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC205351C2F8B060072947C /* NewsFeedViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DC0CB2D1C2DE09B00F34D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC0CB101C2DE09A00F34D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC0CB171C2DE09B00F34D1D;
+			remoteInfo = WaterlooNews;
+		};
+		4DC0CB381C2DE09B00F34D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC0CB101C2DE09A00F34D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC0CB171C2DE09B00F34D1D;
+			remoteInfo = WaterlooNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DC0CB181C2DE09B00F34D1D /* WaterlooNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterlooNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC0CB1B1C2DE09B00F34D1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DC0CB201C2DE09B00F34D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC0CB221C2DE09B00F34D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC0CB251C2DE09B00F34D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DC0CB271C2DE09B00F34D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC0CB2C1C2DE09B00F34D1D /* WaterlooNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterlooNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC0CB301C2DE09B00F34D1D /* WaterlooNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterlooNewsTests.swift; sourceTree = "<group>"; };
+		4DC0CB321C2DE09B00F34D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC0CB371C2DE09B00F34D1D /* WaterlooNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterlooNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC0CB3B1C2DE09B00F34D1D /* WaterlooNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterlooNewsUITests.swift; sourceTree = "<group>"; };
+		4DC0CB3D1C2DE09B00F34D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC0CB491C2DE1A800F34D1D /* WaterlooNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterlooNewsViewController.swift; sourceTree = "<group>"; };
+		4DC0CB4B1C2DE27900F34D1D /* NewsPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsPost.swift; sourceTree = "<group>"; };
+		4DC0CB4D1C2DE28300F34D1D /* NewsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsRequest.swift; sourceTree = "<group>"; };
+		4DC0CB4F1C2DE2D100F34D1D /* NewsPostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsPostTableViewCell.swift; sourceTree = "<group>"; };
+		4DC205291C2E42EA0072947C /* StyleConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleConstants.swift; sourceTree = "<group>"; };
+		4DC2052F1C2F81500072947C /* NewsFeedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedLayout.swift; sourceTree = "<group>"; };
+		4DC205331C2F86BC0072947C /* NewsFeedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DC205351C2F8B060072947C /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC0CB151C2DE09B00F34D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC0CB291C2DE09B00F34D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC0CB341C2DE09B00F34D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC0CB0F1C2DE09A00F34D1D = {
+			isa = PBXGroup;
+			children = (
+				4DC0CB1A1C2DE09B00F34D1D /* WaterlooNews */,
+				4DC0CB2F1C2DE09B00F34D1D /* WaterlooNewsTests */,
+				4DC0CB3A1C2DE09B00F34D1D /* WaterlooNewsUITests */,
+				4DC0CB191C2DE09B00F34D1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC0CB191C2DE09B00F34D1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0CB181C2DE09B00F34D1D /* WaterlooNews.app */,
+				4DC0CB2C1C2DE09B00F34D1D /* WaterlooNewsTests.xctest */,
+				4DC0CB371C2DE09B00F34D1D /* WaterlooNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC0CB1A1C2DE09B00F34D1D /* WaterlooNews */ = {
+			isa = PBXGroup;
+			children = (
+				4DC205291C2E42EA0072947C /* StyleConstants.swift */,
+				4DC0CB1B1C2DE09B00F34D1D /* AppDelegate.swift */,
+				4DC0CB1F1C2DE09B00F34D1D /* Main.storyboard */,
+				4DC0CB221C2DE09B00F34D1D /* Assets.xcassets */,
+				4DC0CB241C2DE09B00F34D1D /* LaunchScreen.storyboard */,
+				4DC0CB271C2DE09B00F34D1D /* Info.plist */,
+				4DC0CB4D1C2DE28300F34D1D /* NewsRequest.swift */,
+				4DC0CB4B1C2DE27900F34D1D /* NewsPost.swift */,
+				4DC0CB491C2DE1A800F34D1D /* WaterlooNewsViewController.swift */,
+				4DC0CB4F1C2DE2D100F34D1D /* NewsPostTableViewCell.swift */,
+				4DC2052F1C2F81500072947C /* NewsFeedLayout.swift */,
+				4DC205331C2F86BC0072947C /* NewsFeedCollectionViewCell.swift */,
+				4DC205351C2F8B060072947C /* NewsFeedViewController.swift */,
+			);
+			path = WaterlooNews;
+			sourceTree = "<group>";
+		};
+		4DC0CB2F1C2DE09B00F34D1D /* WaterlooNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0CB301C2DE09B00F34D1D /* WaterlooNewsTests.swift */,
+				4DC0CB321C2DE09B00F34D1D /* Info.plist */,
+			);
+			path = WaterlooNewsTests;
+			sourceTree = "<group>";
+		};
+		4DC0CB3A1C2DE09B00F34D1D /* WaterlooNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0CB3B1C2DE09B00F34D1D /* WaterlooNewsUITests.swift */,
+				4DC0CB3D1C2DE09B00F34D1D /* Info.plist */,
+			);
+			path = WaterlooNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC0CB171C2DE09B00F34D1D /* WaterlooNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC0CB401C2DE09B00F34D1D /* Build configuration list for PBXNativeTarget "WaterlooNews" */;
+			buildPhases = (
+				4DC0CB141C2DE09B00F34D1D /* Sources */,
+				4DC0CB151C2DE09B00F34D1D /* Frameworks */,
+				4DC0CB161C2DE09B00F34D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterlooNews;
+			productName = WaterlooNews;
+			productReference = 4DC0CB181C2DE09B00F34D1D /* WaterlooNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DC0CB2B1C2DE09B00F34D1D /* WaterlooNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC0CB431C2DE09B00F34D1D /* Build configuration list for PBXNativeTarget "WaterlooNewsTests" */;
+			buildPhases = (
+				4DC0CB281C2DE09B00F34D1D /* Sources */,
+				4DC0CB291C2DE09B00F34D1D /* Frameworks */,
+				4DC0CB2A1C2DE09B00F34D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC0CB2E1C2DE09B00F34D1D /* PBXTargetDependency */,
+			);
+			name = WaterlooNewsTests;
+			productName = WaterlooNewsTests;
+			productReference = 4DC0CB2C1C2DE09B00F34D1D /* WaterlooNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DC0CB361C2DE09B00F34D1D /* WaterlooNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC0CB461C2DE09B00F34D1D /* Build configuration list for PBXNativeTarget "WaterlooNewsUITests" */;
+			buildPhases = (
+				4DC0CB331C2DE09B00F34D1D /* Sources */,
+				4DC0CB341C2DE09B00F34D1D /* Frameworks */,
+				4DC0CB351C2DE09B00F34D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC0CB391C2DE09B00F34D1D /* PBXTargetDependency */,
+			);
+			name = WaterlooNewsUITests;
+			productName = WaterlooNewsUITests;
+			productReference = 4DC0CB371C2DE09B00F34D1D /* WaterlooNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC0CB101C2DE09A00F34D1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = philipapa;
+				TargetAttributes = {
+					4DC0CB171C2DE09B00F34D1D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YSQ82HCBGQ;
+					};
+					4DC0CB2B1C2DE09B00F34D1D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YSQ82HCBGQ;
+						TestTargetID = 4DC0CB171C2DE09B00F34D1D;
+					};
+					4DC0CB361C2DE09B00F34D1D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YSQ82HCBGQ;
+						TestTargetID = 4DC0CB171C2DE09B00F34D1D;
+					};
+				};
+			};
+			buildConfigurationList = 4DC0CB131C2DE09A00F34D1D /* Build configuration list for PBXProject "WaterlooNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC0CB0F1C2DE09A00F34D1D;
+			productRefGroup = 4DC0CB191C2DE09B00F34D1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC0CB171C2DE09B00F34D1D /* WaterlooNews */,
+				4DC0CB2B1C2DE09B00F34D1D /* WaterlooNewsTests */,
+				4DC0CB361C2DE09B00F34D1D /* WaterlooNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC0CB161C2DE09B00F34D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC0CB261C2DE09B00F34D1D /* LaunchScreen.storyboard in Resources */,
+				4DC0CB231C2DE09B00F34D1D /* Assets.xcassets in Resources */,
+				4DC0CB211C2DE09B00F34D1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC0CB2A1C2DE09B00F34D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC0CB351C2DE09B00F34D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC0CB141C2DE09B00F34D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC205301C2F81500072947C /* NewsFeedLayout.swift in Sources */,
+				4DC0CB4A1C2DE1A800F34D1D /* WaterlooNewsViewController.swift in Sources */,
+				4DC205361C2F8B060072947C /* NewsFeedViewController.swift in Sources */,
+				4DC205341C2F86BC0072947C /* NewsFeedCollectionViewCell.swift in Sources */,
+				4DC2052A1C2E42EA0072947C /* StyleConstants.swift in Sources */,
+				4DC0CB1C1C2DE09B00F34D1D /* AppDelegate.swift in Sources */,
+				4DC0CB4E1C2DE28300F34D1D /* NewsRequest.swift in Sources */,
+				4DC0CB4C1C2DE27900F34D1D /* NewsPost.swift in Sources */,
+				4DC0CB501C2DE2D100F34D1D /* NewsPostTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC0CB281C2DE09B00F34D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC0CB311C2DE09B00F34D1D /* WaterlooNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC0CB331C2DE09B00F34D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC0CB3C1C2DE09B00F34D1D /* WaterlooNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DC0CB2E1C2DE09B00F34D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC0CB171C2DE09B00F34D1D /* WaterlooNews */;
+			targetProxy = 4DC0CB2D1C2DE09B00F34D1D /* PBXContainerItemProxy */;
+		};
+		4DC0CB391C2DE09B00F34D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC0CB171C2DE09B00F34D1D /* WaterlooNews */;
+			targetProxy = 4DC0CB381C2DE09B00F34D1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DC0CB1F1C2DE09B00F34D1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC0CB201C2DE09B00F34D1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC0CB241C2DE09B00F34D1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC0CB251C2DE09B00F34D1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DC0CB3E1C2DE09B00F34D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC0CB3F1C2DE09B00F34D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC0CB411C2DE09B00F34D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterlooNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = philipapa.WaterlooNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DC0CB421C2DE09B00F34D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterlooNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = philipapa.WaterlooNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DC0CB441C2DE09B00F34D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterlooNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = philipapa.WaterlooNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterlooNews.app/WaterlooNews";
+			};
+			name = Debug;
+		};
+		4DC0CB451C2DE09B00F34D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterlooNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = philipapa.WaterlooNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterlooNews.app/WaterlooNews";
+			};
+			name = Release;
+		};
+		4DC0CB471C2DE09B00F34D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterlooNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = philipapa.WaterlooNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterlooNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4DC0CB481C2DE09B00F34D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterlooNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = philipapa.WaterlooNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterlooNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC0CB131C2DE09A00F34D1D /* Build configuration list for PBXProject "WaterlooNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC0CB3E1C2DE09B00F34D1D /* Debug */,
+				4DC0CB3F1C2DE09B00F34D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC0CB401C2DE09B00F34D1D /* Build configuration list for PBXNativeTarget "WaterlooNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC0CB411C2DE09B00F34D1D /* Debug */,
+				4DC0CB421C2DE09B00F34D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC0CB431C2DE09B00F34D1D /* Build configuration list for PBXNativeTarget "WaterlooNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC0CB441C2DE09B00F34D1D /* Debug */,
+				4DC0CB451C2DE09B00F34D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC0CB461C2DE09B00F34D1D /* Build configuration list for PBXNativeTarget "WaterlooNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC0CB471C2DE09B00F34D1D /* Debug */,
+				4DC0CB481C2DE09B00F34D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC0CB101C2DE09A00F34D1D /* Project object */;
+}
